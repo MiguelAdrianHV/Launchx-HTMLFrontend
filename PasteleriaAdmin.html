@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="./img/LogoPasteleria.png" alt="Logo de pasteleria espacial" width="300px">
+    <h1>Administrador</h1>
+    <hr>
+    <form action="inventario.js">
+        <h2>Sabores restantes</h2>
+        <table border="solid 1px #000">
+            <tr>
+                <th width="150px">Vainilla</th>
+                <th width="150px">Chocolate</th>
+                <th width="150px">Fresa</th>
+                <th width="150px">Limon</th>
+                <th width="150px">Tres leches</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>6</th>
+                <th>8</th>
+                <th>2</th>
+                <th>6</th>
+            </tr>
+        </table>
+        <br>
+        <h2>Adornos restantes</h2>
+        <table border="solid 1px #000">
+            <tr>
+                <th width="150px">Letras en pastel</th>
+                <th width="150px">Letrero</th>
+                <th width="150px">Dibujo en pastel</th>
+                <th width="150px">Flores</th>
+                <th width="150px">Lazos</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>6</th>
+                <th>8</th>
+                <th>2</th>
+                <th>6</th>
+            </tr>
+        </table>
+    </form>
+    <br><hr><br>
+    <h2>Pedidos recibidos</h2>
+    <form action="pedidosrecibidos.js">
+        <table border="1px solid #000">
+            <tr>
+                <th >Nombre</th>
+                <th>Miguel Adrian Hernandez</th>
+            </tr>
+            <tr>
+                <th>Telefono</th>
+                <th>6645555555</th>
+            </tr>
+            <tr>
+                <th>Correo electronico</th>
+                <th>alguien@ejemplo.com</th>
+            </tr>
+            <tr>
+                <th>Sabor</th>
+                <th align="left">
+                    <input type="checkbox" name="Vainilla" id="Sabor" checked="false">
+                    <label for="Vainilla">Vainilla</label><br>
+                    <input type="checkbox" checked="false" name="Chocolate" id="Sabor">
+                    <label for="Chocolate">Chocolate</label><br>
+                    <input type="checkbox" checked="false" name="Fresa" id="Sabor">
+                    <label for="Fresa">Fresa</label><br>
+                    <input type="checkbox" checked="false" name="Limon" id="Sabor">
+                    <label for="Limon">Limon</label><br>
+                    <input type="checkbox" checked name="Tres leches" id="Sabor">
+                    <label for="Tres leches">Tres leches</label><br>
+                </th>
+            </tr>
+            <tr>
+                <th>Adorno</th>
+                <th align="left">
+                    <input type="checkbox" name="Letras en pastel" id="Adorno">
+                    <label for="Letras en pastel">Letras en pastel</label><br>
+                    <input type="checkbox" name="Letrero" id="Adorno">
+                    <label for="Letrero">Letrero</label><br>
+                    <input type="checkbox" name="Dibujo en pastel" id="Adorno">
+                    <label for="Dibujo en pastel">Dibujo en pastel</label><br>
+                    <input type="checkbox" name="Flores" id="Adorno">
+                    <label for="Flores">Flores</label><br>
+                    <input type="checkbox" name="Lazos" id="Adorno">
+                    <label for="Lazos">Lazos</label><br>
+                </th>
+            </tr>
+            <tr>
+                <th>Descripcion</th>
+                <th width="200px" align="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt delectus quam, atque nam ipsa laudantium eius nulla mollitia error eum nesciunt. Autem minus quas nam corporis earum delectus consequatur itaque rerum necessitatibus omnis? Aperiam ut, impedit praesentium obcaecati eaque animi.</th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
