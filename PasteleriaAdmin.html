@@ -11,11 +11,11 @@
 
 <body>
     <img src="./img/LogoPasteleria.png" alt="Logo de pasteleria espacial" width="300px">
+
     <h1>Administrador</h1>
-    <hr>
-    <form action="inventario.js">
-        <h2>Sabores restantes</h2>
-        <table border="solid 1px #000">
+    <form action="inventario.js" class="form-pedidos">
+        <label>Sabores restantes</label>
+        <table>
             <tr>
                 <th width="150px">Vainilla</th>
                 <th width="150px">Chocolate</th>
@@ -32,8 +32,8 @@
             </tr>
         </table>
         <br>
-        <h2>Adornos restantes</h2>
-        <table border="solid 1px #000">
+        <label>Adornos restantes</label>
+        <table>
             <tr>
                 <th width="150px">Letras en pastel</th>
                 <th width="150px">Letrero</th>
@@ -50,10 +50,10 @@
             </tr>
         </table>
     </form>
-    <br><hr><br>
+    <br>
     <h2>Pedidos recibidos</h2>
-    <form action="pedidosrecibidos.js">
-        <table border="1px solid #000">
+    <form action="pedidosrecibidos.js" class="form-pedidos">
+        <table>
             <tr>
                 <th >Nombre</th>
                 <th>Miguel Adrian Hernandez</th>
@@ -98,10 +98,18 @@
             </tr>
             <tr>
                 <th>Descripcion</th>
-                <th width="200px" align="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt delectus quam, atque nam ipsa laudantium eius nulla mollitia error eum nesciunt. Autem minus quas nam corporis earum delectus consequatur itaque rerum necessitatibus omnis? Aperiam ut, impedit praesentium obcaecati eaque animi.</th>
+                <th width="200px" align="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt delectus quam, atque nam ipsa laudantium eius nulla mollitia error eum nesciunt. Autem minus quas nam corporis </th>
+            </tr>
+            <tr class="aceptar-button">
+                <th></th>
+                <th><a href="#">Aceptar</a></th>
             </tr>
         </table>
     </form>
+    <br>
+    <div class="bottom-buttons">
+        <a href="./PasteleriaMenu.html">Menu</a>
+    </div>
 </body>
 
 </html>

@@ -10,46 +10,60 @@
 <body>
     <h1>Formulario de pedidos</h1>
     <h3>Llene sus datos para poder tomar su pedido</h3>
-    <form action="pedidos.js">
-        <label for="Nombre">Ingresa tu nombre</label><br>
-        <input type="text" placeholder="Nombre">
-        <br><br>
-        <label for="Telefono">Ingresa tu telefono</label><br>
-        <input type="number" placeholder="Telefono">
-        <br><br>
-        <label for="CorreoElectronico">Ingrese su correo electronico</label><br>
-        <input type="text" placeholder="Alguien@ejemplo.com">
-        <br><br>
-        <label for="Descripcion">Descripcion de pedido</label><br>
-        <textarea name="Descripcion" id="Descripcion" cols="21" rows="5"></textarea>
-        <br><br>
-        <label for="SaboresPastel">Sabores del pastel</label><br>
-        <input type="checkbox" name="Vainilla" id="Sabor">
-        <label for="Vainilla">Vainilla</label><br>
-        <input type="checkbox" name="Chocolate" id="Sabor">
-        <label for="Chocolate">Chocolate</label><br>
-        <input type="checkbox" name="Fresa" id="Sabor">
-        <label for="Fresa">Fresa</label><br>
-        <input type="checkbox" name="Limon" id="Sabor">
-        <label for="Limon">Limon</label><br>
-        <input type="checkbox" name="Tres leches" id="Sabor">
-        <label for="Tres leches">Tres leches</label><br>
-        <br><br>
-        <label for="AdornosPastel">Adornos del pastel</label><br>
-        <input type="checkbox" name="Letras en pastel" id="Adorno">
-        <label for="Letras en pastel">Letras en pastel</label><br>
-        <input type="checkbox" name="Letrero" id="Adorno">
-        <label for="Letrero">Letrero</label><br>
-        <input type="checkbox" name="Dibujo en pastel" id="Adorno">
-        <label for="Dibujo en pastel">Dibujo en pastel</label><br>
-        <input type="checkbox" name="Flores" id="Adorno">
-        <label for="Flores">Flores</label><br>
-        <input type="checkbox" name="Lazos" id="Adorno">
-        <label for="Lazos">Lazos</label><br>
-        <br><br>
-        <a href="./PasteleriaMenu.html"><button>Atras</button></a>
-        <input type="reset">
-        <input type="submit">
+    <form action="#" class="form-pedidos">
+        <div class="row">
+            <div class="column">
+                <label for="Nombre">Ingresa tu nombre</label><br><br>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div class="column">
+                <label for="Telefono">Ingresa tu telefono</label><br><br>
+                <input type="number" placeholder="Telefono">    
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="CorreoElectronico">Ingrese su correo electronico</label><br><br>
+                <input type="text" placeholder="Alguien@ejemplo.com">
+            </div>
+            <div class="column">
+                <label for="Descripcion">Descripcion de pedido</label><br><br>
+                <textarea name="Descripcion" id="Descripcion" cols="21" rows="5"></textarea>   
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="SaboresPastel">Sabores del pastel</label><br>
+                <input type="checkbox" name="Vainilla" id="Sabor">
+                <label for="Vainilla">Vainilla</label><br>
+                <input type="checkbox" name="Chocolate" id="Sabor">
+                <label for="Chocolate">Chocolate</label><br>
+                <input type="checkbox" name="Fresa" id="Sabor">
+                <label for="Fresa">Fresa</label><br>
+                <input type="checkbox" name="Limon" id="Sabor">
+                <label for="Limon">Limon</label><br>
+                <input type="checkbox" name="Tres leches" id="Sabor">
+                <label for="Tres leches">Tres leches</label><br>
+            </div>
+            <div class="column">
+                <label for="AdornosPastel">Adornos del pastel</label><br>
+                <input type="checkbox" name="Letras en pastel" id="Adorno">
+                <label for="Letras en pastel">Letras en pastel</label><br>
+                <input type="checkbox" name="Letrero" id="Adorno">
+                <label for="Letrero">Letrero</label><br>
+                <input type="checkbox" name="Dibujo en pastel" id="Adorno">
+                <label for="Dibujo en pastel">Dibujo en pastel</label><br>
+                <input type="checkbox" name="Flores" id="Adorno">
+                <label for="Flores">Flores</label><br>
+                <input type="checkbox" name="Lazos" id="Adorno">
+                <label for="Lazos">Lazos</label><br>  
+            </div>
+        </div>
     </form>
+    <div class="bottom-buttons">
+        <a href="./PasteleriaMenu.html">Atras</a>
+        <a href="./PasteleriaMenu.html">Limpiar</a>
+        <a href="./PasteleriaMenu.html">Enviar</a>
+    </div>
 </body>
 </html>

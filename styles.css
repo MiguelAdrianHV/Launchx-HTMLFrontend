@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #fabbbb;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+h1,h2,h3,p,li,label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b23c38;
+    font-size: 130%;
+}
+h1,h2 {
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: #b23c38;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    transition: 150ms ease-in-out;
+}
+a:hover{
+    background-color: #8b312e;
+}
+hr{
+    border: 1px solid white;
+}
+form{
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 50rem;
+    align-items: center;
+    margin: 0 auto;
+}
+.column input[type=text],input[type=number],textarea{
+    width: 20rem;
+    height: 2rem;
+}
+.column textarea{
+    height: 5rem;
+}
+.form-pedidos{
+    background-color: white;
+}
+.row{
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+}
+.bottom-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+th,td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b23c38;
+}
+tr:nth-child(even) {
+    background-color: #c2c2c2;
+}
+table{
+    margin: 0 auto;
+    border: 1px solid #c2c2c2;
+    border-collapse: collapse;
+
+}
+.aceptar-button{
+    height: 3rem;
+    text-align: left;
+}
+
+
